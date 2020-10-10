@@ -16,7 +16,7 @@ ForEach ($PackageName in $Packages)
 {choco install $PackageName -y}
 
 #Bring down Desktop Shortcuts
-$zipDownload = "https://github.com/ravenky/docker/blob/main/shortcuts.zip"
+$zipDownload = "https://github.com/ravenky/docker/blob/main/shortcuts.zip?raw=true"
 $downloadedFile = "D:\shortcuts.zip"
 $vmFolder = "C:\Users\Public\Desktop"
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
