@@ -1,19 +1,3 @@
-#################################################################################
-# project: az-kung-fu
-# http://www.build5nines.com/az-kung-fu
-# MIT License - https://github.com/Build5Nines/az-kung-fu
-#################################################################################
-# Script Purpose
-# - configure the az-kung-fu-vm
-# Script Usage
-# - custom script extention to configure the az-kung-fu-vm
-# - manually configure the WSL ubuntu distro after provisioning
-# - make sure to set the repo to Build5Nines and the branch to master for PRs
-##################################################################################
-
-#Set GitHub Repo and Branch
-$gitHubRepo = "Build5Nines"
-$gitHubBranch = "master"
 
 #Install Chocolatey
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
